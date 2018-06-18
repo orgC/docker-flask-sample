@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Oh, Hello Thomas  <br><a href='/git'>view latest git author</a>"
+    return "Oh, Hello world <br><a href='/git'>view latest git author</a>"
 
 @app.route("/git")
 def git_author():
